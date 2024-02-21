@@ -14,9 +14,9 @@ from util.writeconfig import WriteConfig
 
 def main():
     stars = requests.get(
-        f"https://api.github.com/repos/HELLODFDS/Acheron-dos-tool").json()["stargazers_count"]
+        f"https://api.github.com/repos/whitespaca/Acheron").json()["stargazers_count"]
     forks = requests.get(
-        f"https://api.github.com/repos/HELLODFDS/Acheron-dos-tool").json()["forks_count"]
+        f"https://api.github.com/repos/whitespaca/Acheron").json()["forks_count"]
 
     logging.basicConfig(
         level="NOTSET",
